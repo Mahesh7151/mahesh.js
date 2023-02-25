@@ -1,3 +1,16 @@
-let x=[9,8,5];
-let y=[9,8,5]
-x==y
+  let product={
+    name:"redmi",
+    id:10,
+    price:2222,
+
+        location:{
+        city:"banglore"
+    }
+  }
+
+  let {name,location:{city}}=product
+  console.log(name,city);
+ 
+
+    
+
