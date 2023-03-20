@@ -1,4 +1,3 @@
-var size=[30,40,50,60,70,80]
-
-
-console.log(size.indexOf(50));
+let data=[1,2,6,4,2,1,8,4]
+console.log(new Set(data));
+console.log(Array.from(new Set(data)));
